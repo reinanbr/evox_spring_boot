@@ -3,7 +3,7 @@
 Para construir ele foi muito simples! <br>
 fui no site do spring e criei na seguinte config:
 <br>
-img src='spring_print.png'>
+<img src='spring_print.png'>
 <br>
 Depois, exportei ele no diretorio principal do cel, e o movi para a pasta raiz, pq achei que ia ser melhor a compilação ali.<br>
 depois instalei pelo ubuntu, o maven para poder rodar ele, verifiquei qual versao do openjdk estava instalado (21). <br>
@@ -14,10 +14,12 @@ depois, usei o `mvn spring-boot:run` para compilar e rodar, e com isso, vai suav
 ### testes de criação e geraçäo de pacotes .jar
 <br>
 Ele tbm oferece comandos de criação .jar e compilar testes:<br>
+
 ```sh
 mvn clean package
 ```
 Depois que vc fizer isso, eh soh rodar algo parecido com:
+
 ```sh
 java -jar target/evox-0.0.1-SNAPSHOT.jar
 ```
